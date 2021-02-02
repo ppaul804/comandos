@@ -45,7 +45,8 @@ IF %ERRORLEVEL% NEQ 0 (
 
 :chocoInstall
     echo ===============================================================================
-    choco install sonarqube-scanner.portable sigil -v -y
+    choco install sonarqube-scanner.portable sigil -vy
+    choco upgrade all -vy
     echo ===============================================================================
     echo Lista de programas instalados:
     choco find -l
