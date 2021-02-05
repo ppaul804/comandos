@@ -38,14 +38,25 @@ IF %ERRORLEVEL% NEQ 0 (
     echo ===============================================================================
     pause 
 ) ELSE (
-    echo ===============================================================================
-    echo Chocolatey encontrado...
     goto chocoInstall
 )
 
 :chocoInstall
-    echo ===============================================================================
-    choco install sonarqube-scanner.portable sigil -vy
+    @REM ---Dev---
+    @REM choco install openjdk8 openjdk vscode -vy
+    @REM choco install nodejs nvm microsoft-teams forticlientvpn git docker-desktop robo3t postman notepadplusplus -vy
+    @REM ---Informática---
+    @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd -vy
+    @REM ---Banco de Dados---
+    @REM choco install mysql mysql.workbench -vy
+    @REM ---Navegadores---
+    @REM choco install googlechrome firefox -vy
+    @REM ---Mídia---
+    @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify -vy
+    @REM ---Utilitários---
+    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent alldup treesizefree aegisub -vy
+    @REM ---Jogos---
+    @REM choco install steam -vy
     choco upgrade all -vy
     echo ===============================================================================
     echo Lista de programas instalados:
