@@ -54,7 +54,7 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM ---Mídia---
     @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify -vy
     @REM ---Utilitários---
-    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent alldup treesizefree aegisub screentogif -vy
+    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif -vy
     @REM ---Jogos---
     @REM choco install steam -vy
     choco upgrade all -vy
