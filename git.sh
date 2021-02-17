@@ -42,3 +42,7 @@ rm -f -r -d -v "nome da pasta" #remove forçadamente diretórios e seus conteúd
 #usando git flow
 git flow init #habilita e configura o gitflow
 git flow feature start {nomeFeature} #inicia um ramo do recurso a ser implementado
+git stash #guarda as mudanças atuais para limpar o espaço de trabalho (em refs/stash) para eventualmente voltar depois
+git stash list #lista os stashes (guardados)
+git stash show #mostra o stash
+git stash apply #aplica o stash
