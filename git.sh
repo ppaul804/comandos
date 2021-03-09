@@ -25,6 +25,7 @@ git reset {commit} #desfaz todos os commits depois de {commit} preservando mudan
 git reset --hard {commit} #descarta todo histórico e mudanças para o commit especificado
 git log #mostra o histórico de commits. aperte 'q' para sair do comando
 git log --oneline #mostra o histórico de commits em uma linha cada
+git remote remove <nome> #retira um repositório
 git remote add origin git@github.com:gitAccount/Repository.git #adiciona uma origem remota do repositório com SSH
 git remote add origin https://github.com/gitAccount/Repository.git #adiciona uma origem remota do repositório com HTTPS
 git push -u origin master #envia ao repositório remoto as mudanças feitas no ramo (branch) master
