@@ -21,7 +21,8 @@ git add '*.txt' #adiciona todos os .txt a escala (staging area)
 git reset '*.txt' #retira todos os .txt a escala (staging area)
 git rm '*.txt' #remove o arquivo do disco
 git commit -m "Adição de mensagem descrevendo o que mudou" #faz o commit com uma mensagem
-git reset {commit} #desfaz todos os commits depois de {commit} preservando mudanças locais
+git reset --soft {commit} #desfaz todos os commits depois de {commit} preservando mudanças locais (estes adicionados a escala (staging area))
+git reset {commit} #desfaz todos os commits depois de {commit} preservando mudanças locais (estes fora da escala (staging area))
 git reset --hard {commit} #descarta todo histórico e mudanças para o commit especificado
 git log #mostra o histórico de commits. aperte 'q' para sair do comando
 git log --oneline #mostra o histórico de commits em uma linha cada
@@ -34,10 +35,6 @@ git pull origin master #sincroniza o branch master remoto com o branch master lo
 git diff HEAD #mostra as diferenças do último commit usando o ponteiro HEAD
 git diff {commitAnterior} {commit} #mostra as diferenças do commit anterior e o commit atual
 git checkout -- arquivo.txt #muda o arquivo para como ele estava no último commit
-git reset --soft {commit} #muda o ponteiro da branch para um commit específico sem mudar os arquivos locais (estes adicionados a escala (staging area))
-git reset {commit} #muda o ponteiro da branch para um commit específico sem mudar os arquivos locais (estes fora da escala (staging area))
-git reset --mixed {commit} #muda o ponteiro da branch para um commit específico sem mudar os arquivos locais (estes fora da escala (staging area))
-git reset --hard {commit} #muda o ponteiro da branch para um commit específico mudando os arquivos locais (estes fora da escala (staging area))
 git branch {novoBranch} #cria um novo ramo do repositório
 git checkout {novoBranch} #alterna para o branch criado anteriormente
 #no branch master
