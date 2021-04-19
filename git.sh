@@ -34,6 +34,10 @@ git pull origin master #sincroniza o branch master remoto com o branch master lo
 git diff HEAD #mostra as diferenças do último commit usando o ponteiro HEAD
 git diff {commitAnterior} {commit} #mostra as diferenças do commit anterior e o commit atual
 git checkout -- arquivo.txt #muda o arquivo para como ele estava no último commit
+git reset --soft {commit} #muda o ponteiro da branch para um commit específico sem mudar os arquivos locais (estes adicionados a escala (staging area))
+git reset {commit} #muda o ponteiro da branch para um commit específico sem mudar os arquivos locais (estes fora da escala (staging area))
+git reset --mixed {commit} #muda o ponteiro da branch para um commit específico sem mudar os arquivos locais (estes fora da escala (staging area))
+git reset --hard {commit} #muda o ponteiro da branch para um commit específico mudando os arquivos locais (estes fora da escala (staging area))
 git branch {novoBranch} #cria um novo ramo do repositório
 git checkout {novoBranch} #alterna para o branch criado anteriormente
 #no branch master
