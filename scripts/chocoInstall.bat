@@ -43,8 +43,10 @@ IF %ERRORLEVEL% NEQ 0 (
 
 :chocoInstall
     @REM ---Dev---
-    @REM choco install openjdk8 openjdk vscode -vy
-    @REM choco install nodejs nvm microsoft-teams forticlientvpn git docker-desktop robo3t postman notepadplusplus -vy
+    @REM choco install openjdk8 openjdk maven vscode -vy
+    @REM choco install openshift-cli -vy
+    @REM choco install nodejs nvm yarn -vy
+    @REM choco install microsoft-teams forticlientvpn git docker-desktop robo3t postman notepadplusplus drawio -vy
     @REM ---Informática---
     @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd -vy
     @REM ---Banco de Dados---
@@ -54,7 +56,7 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM ---Mídia---
     @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify -vy
     @REM ---Utilitários---
-    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif -vy
+    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka -vy
     @REM ---Jogos---
     @REM choco install steam -vy
     choco upgrade all -vy
