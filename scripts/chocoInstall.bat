@@ -43,22 +43,23 @@ IF %ERRORLEVEL% NEQ 0 (
 
 :chocoInstall
     @REM ---Dev---
-    @REM choco install openjdk8 openjdk maven vscode -vy
-    @REM choco install openshift-cli -vy
-    @REM choco install nodejs nvm yarn -vy
-    @REM choco install microsoft-teams forticlientvpn git docker-desktop robo3t postman notepadplusplus drawio -vy
+    @REM choco install openjdk8 openjdk maven vscode -y
+    @REM choco install openshift-cli minishift -y
+    @REM choco install nodejs nvm yarn devdocs-app -y
+    @REM choco install microsoft-teams forticlientvpn git docker-desktop robo3t postman notepadplusplus -y
+    @REM choco install XAMPP-73 -y
     @REM ---Informática---
-    @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd -vy
+    @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd rufus yumi -y
     @REM ---Banco de Dados---
-    @REM choco install mysql mysql.workbench -vy
+    @REM choco install mysql.workbench -y
     @REM ---Navegadores---
-    @REM choco install googlechrome firefox -vy
+    @REM choco install googlechrome firefox -y
     @REM ---Mídia---
-    @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify -vy
+    @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify -y
     @REM ---Utilitários---
-    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka -vy
+    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka -y
     @REM ---Jogos---
-    @REM choco install steam -vy
+    @REM choco install steam -y
     choco upgrade all -vy
     echo ===============================================================================
     echo Lista de programas instalados:
