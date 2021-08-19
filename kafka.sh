@@ -7,6 +7,8 @@ bin/kafka-server-start.sh config/server.properties
 bin/kafka-topics.sh --list --zookeeper localhost:2181
 # criar tópico
 bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 2 --topic {nomeTopico}
+# deletar tópico
+bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic {nomeTopico}
 # "limpar tópico" (retenção de conteúdo em 1 seg)
 bin/kafka-topics.sh --zookeeper localhost:2181 --alter --topic {nomeTopico} --config retention.ms=1000
 # descrever tópico
