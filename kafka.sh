@@ -11,6 +11,8 @@ bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 -
 bin/kafka-topics.sh --delete --zookeeper localhost:2181 --topic {nomeTopico}
 # "limpar tópico" (retenção de conteúdo em 1 seg)
 bin/kafka-topics.sh --zookeeper localhost:2181 --alter --topic {nomeTopico} --config retention.ms=1000
+# retenção padrão (7 dias) https://kafka.apache.org/documentation/#topicconfigs_retention.ms
+bin/kafka-topics.sh --zookeeper localhost:2181 --alter --topic {nomeTopico} --config retention.ms=604800000
 # descrever tópico
 bin/kafka-topics.sh --describe --zookeeper localhost:2181 --topic {nomeTopico}
 # detalhes dos consumidores
