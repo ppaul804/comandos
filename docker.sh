@@ -10,3 +10,5 @@ docker run -d -p 8082:11211 --name infinispan jboss/infinispan-server:9.4.5.Fina
 docker rm {container}
 # listar containers
 docker ps
+# executar terminal do container
+docker exec -it {container} /bin/sh
