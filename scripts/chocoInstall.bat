@@ -43,21 +43,21 @@ IF %ERRORLEVEL% NEQ 0 (
 
 :chocoInstall
     @REM ---Dev---
-    @REM choco install openjdk8 openjdk maven vscode -y
+    @REM choco install openjdk8 openjdk maven vscode jmeter -y
     @REM choco install openshift-cli minishift -y
-    @REM choco install nodejs nvm yarn devdocs-app -y
-    @REM choco install microsoft-teams forticlientvpn git docker-desktop robo3t postman notepadplusplus -y
+    @REM choco install nodejs-lts nvm yarn -y
+    @REM choco install microsoft-teams forticlientvpn git docker-desktop robo3t postman notepadplusplus drawio virtualbox -y
     @REM choco install XAMPP-73 -y
     @REM ---Informática---
-    @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd rufus yumi -y
+    @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd rufus yumi h2testw -y
     @REM ---Banco de Dados---
-    @REM choco install mysql.workbench -y
+    @REM choco install datagrip mysql.workbench -y
     @REM ---Navegadores---
     @REM choco install googlechrome firefox -y
     @REM ---Mídia---
-    @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify -y
+    @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify scrcpy -y
     @REM ---Utilitários---
-    @REM choco install 7zip revo-uninstaller bleachbit ccleaner defraggler speccy recuva k-litecodecpackfull kvirc keepassxc speedtest jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka -y
+    @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka macrocreator -y
     @REM ---Jogos---
     @REM choco install steam -y
     choco upgrade all -vy
