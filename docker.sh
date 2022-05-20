@@ -12,5 +12,5 @@ docker rm {container}
 docker ps
 # executar terminal do container
 docker exec -it {container} /bin/sh
-# docker-compose, suba
+# docker-compose, crie e inicie containers, rodando de fundo
 docker-compose up -d
