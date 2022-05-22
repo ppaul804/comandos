@@ -44,6 +44,7 @@ IF %ERRORLEVEL% NEQ 0 (
 :chocoInstall
     @REM ---Dev---
     @REM choco install jdk8 oraclejdk maven vscode jmeter -y
+    @REM choco install intellijidea-ultimate -y
     @REM choco install openshift-cli minishift -y
     @REM choco install nodejs-lts nvm yarn -y
     @REM choco install microsoft-teams forticlientvpn git git-fork docker-desktop robo3t postman notepadplusplus drawio virtualbox -y
