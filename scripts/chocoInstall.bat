@@ -47,7 +47,6 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM choco install openshift-cli minishift -y
     @REM choco install nodejs-lts nvm yarn -y
     @REM choco install microsoft-teams forticlientvpn git git-fork docker-desktop robo3t postman notepadplusplus drawio virtualbox -y
-    @REM choco install XAMPP-73 -y
     @REM ---Informática---
     @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd rufus yumi h2testw -y
     @REM ---Banco de Dados---
