@@ -47,11 +47,13 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM choco install intellijidea-ultimate -y
     @REM choco install openshift-cli minishift -y
     @REM choco install nodejs-lts nvm yarn -y
+    @REM choco install dotnet visualstudio2019community -y
+    @REM choco install jetbrains-rider -y
     @REM choco install microsoft-teams forticlientvpn git git-fork docker-desktop robo3t postman soapui notepadplusplus drawio virtualbox -y
     @REM ---Informática---
     @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd rufus yumi h2testw reflect-free -y
     @REM ---Banco de Dados---
-    @REM choco install datagrip mysql.workbench -y
+    @REM choco install dbeaver datagrip mysql.workbench -y
     @REM ---Navegadores---
     @REM choco install googlechrome firefox -y
     @REM ---Mídia---
