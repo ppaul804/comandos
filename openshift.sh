@@ -13,3 +13,7 @@ oc label route <3scale-route-name> "router=external"
 oc new-app --name=myapp https://github.com/youruser/yourprivaterepo#develop --source-secret=yoursecret
 # Criar um novo app usando um repositorio privado pela branch develop com a imagem do java
 oc new-app --name=myapp openshift/java:latest~https://github.com/youruser/yourprivaterepo#develop --source-secret=yoursecret
+# Listar todos os recursos do app criado
+oc get all -o name --selector app=myapp
+# Apagar todos os recursos do app criado
+oc delete all --selector app=myapp
