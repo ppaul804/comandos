@@ -62,7 +62,7 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka adobereader pdf24 libreoffice -y
     @REM ---Jogos---
     @REM choco install steam -y
-    choco upgrade all -vy
+    choco upgrade all -y
     echo ===============================================================================
     echo Lista de programas instalados:
     choco find -l
