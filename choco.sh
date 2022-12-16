@@ -29,7 +29,7 @@ choco list -l
 choco find -l
 choco search -l
 # instalar pacote em modo verboso (executar como administrador se possível)
-choco install {} -v
+choco install {pacote} -v
 choco install {pacote} -v -f # força a instalação
 # desinstalar pacote em modo verboso
 choco uninstall {pacote} -v
