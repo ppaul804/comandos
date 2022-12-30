@@ -1,6 +1,0 @@
-.+(https?://.+pdf).+
-(\n(\s*))*<.+>
-
-extrair variaveis de xml
-.*<add (key|name)=(".+") (value|connectionString)(=".*").*\/>.*(\n)|.*\n
-$2$4$5
