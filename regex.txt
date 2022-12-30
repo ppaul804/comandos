@@ -2,4 +2,5 @@
 (\n(\s*))*<.+>
 
 log spring -> \[0;39m|\[2m|\[31m|\[32m|\[33m|\[39m|\[35m|\[36m
+
 .*<add (key|name)=(".+") (value|connectionString)(=".*").*\/>.*(\n)|.*\n
