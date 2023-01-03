@@ -49,17 +49,21 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM choco install nodejs-lts nvm yarn -y
     @REM choco install dotnet visualstudio2019community -y
     @REM choco install jetbrains-rider -y
-    @REM choco install microsoft-teams forticlientvpn git git-fork docker-desktop robo3t postman soapui notepadplusplus drawio virtualbox -y
+    @REM choco install microsoft-teams forticlientvpn vmware-horizon-client git git-fork docker-desktop robo3t studio3t postman soapui notepadplusplus drawio virtualbox -y
+    @REM choco install awscli -y
     @REM ---Informática---
-    @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd rufus yumi h2testw reflect-free -y
+    @REM choco install cpu-z hwmonitor crystaldiskinfo crystaldiskmark easybcd rufus yumi h2testw reflect-free speedtest -y
     @REM ---Banco de Dados---
-    @REM choco install dbeaver datagrip mysql.workbench -y
+    @REM choco install datagrip -y
+    @REM choco install dbeaver mysql.workbench -y
     @REM ---Navegadores---
     @REM choco install googlechrome firefox -y
     @REM ---Mídia---
-    @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive obs-studio anyvideoconverter spotify scrcpy -y
+    @REM choco install k-litecodecpackfull mkvtoolnix vlc kdenlive gimp obs-studio anyvideoconverter spotify scrcpy -y
+    @REM ---Escritório---
+    @REM choco adobereader pdf24 libreoffice MailViewer -y
     @REM ---Utilitários---
-    @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt megasync google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka adobereader pdf24 libreoffice -y
+    @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka macrocreator spacedesk-server eartrumpet -y
     @REM ---Jogos---
     @REM choco install steam -y
     choco upgrade all -y
