@@ -43,6 +43,7 @@ git merge {novoBranch} #unifica o branch novo_branch ao branch master
 git branch -d {novoBranch} #deleta o branch novo_branch
 rm -f -r -d -v "nome da pasta" #remove forçadamente diretórios e seus conteúdos rercusivamente, diretórios vazios, explicando o que está sendo feito (--verbose)
 #usando git flow
+git checkout --orphan master #cria novo branch vazio
 git flow init #habilita e configura o gitflow
 git flow feature start {nomeFeature} #inicia um ramo do recurso a ser implementado
 git stash #guarda as mudanças atuais para limpar o espaço de trabalho (em refs/stash) para eventualmente voltar depois
