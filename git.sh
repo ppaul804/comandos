@@ -31,6 +31,7 @@ git remote add origin git@github.com:gitAccount/Repository.git #adiciona uma ori
 git remote add origin https://github.com/gitAccount/Repository.git #adiciona uma origem remota do repositório com HTTPS
 git push -u origin master #envia ao repositório remoto as mudanças feitas no ramo (branch) master
 git push #envia ao repositório remoto as mudanças desde que os parâmetros estejam sendo lembrados pelo o uso do -u do push anterior
+git pull --rebase origin master #atualiza o repositório local com o repositório remoto realizando o rebase (sem merge commit)
 git pull origin master #sincroniza o branch master remoto com o branch master local
 git pull origin master --allow-unrelated-histories #permite pull de históricos de Git diferentes
 git diff HEAD #mostra as diferenças do último commit usando o ponteiro HEAD
