@@ -17,3 +17,5 @@ oc new-app --name=myapp openshift/java:latest~https://github.com/youruser/yourpr
 oc get all -o name --selector app=myapp
 # Apagar todos os recursos do app criado
 oc delete all --selector app=myapp
+# Acessa o pod do mongo com a porta 27017
+oc port-forward <mongo-pod-name> 27017:27017

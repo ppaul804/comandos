@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "redhat.apache-camel-extension-pack",
-        "hediet.vscode-drawio"
+        "hediet.vscode-drawio",
+        "johnpapa.vscode-peacock"
     ]
 }
