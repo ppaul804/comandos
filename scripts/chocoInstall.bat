@@ -63,9 +63,9 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM ---Escritório---
     @REM choco adobereader pdf24 libreoffice MailViewer -y
     @REM ---Utilitários---
-    @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt google-backup-and-sync protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka macrocreator spacedesk-server eartrumpet -y
+    @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt googledrive protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka macrocreator spacedesk-server eartrumpet -y
     @REM ---Jogos---
-    @REM choco install steam -y
+    @REM choco install steam msiafterburner -y
     choco upgrade all -y
     echo ===============================================================================
     echo Lista de programas instalados:
