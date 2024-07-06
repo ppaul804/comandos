@@ -65,7 +65,7 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM ---Utilitários---
     @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt googledrive protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka macrocreator spacedesk-server eartrumpet -y
     @REM ---Jogos---
-    @REM choco install steam msiafterburner -y
+    @REM choco install steam msiafterburner lghub -y
     choco upgrade all -y
     echo ===============================================================================
     echo Lista de programas instalados:
