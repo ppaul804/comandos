@@ -63,7 +63,7 @@ IF %ERRORLEVEL% NEQ 0 (
     @REM ---Escritório---
     @REM choco adobereader pdf24 libreoffice MailViewer -y
     @REM ---Utilitários---
-    @REM choco install 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt googledrive protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka macrocreator spacedesk-server eartrumpet -y
+    @REM choco install powertoys 7zip revo-uninstaller qbittorrent teracopy bleachbit ccleaner defraggler speccy recuva kvirc keepassxc jdownloader whatsapp discord telegram zoom imgburn veracrypt googledrive protonvpn comicrack renamer utorrent dupeguru treesizefree aegisub screentogif balabolka macrocreator spacedesk-server eartrumpet -y
     @REM ---Jogos---
     @REM choco install steam msiafterburner lghub -y
     choco upgrade all -y
