@@ -43,7 +43,7 @@ git checkout {novoBranch} #alterna para o branch criado anteriormente
 git merge {novoBranch} #unifica o branch novo_branch ao branch master
 git merge --abort #aborta o merge entre branches
 git branch -d {novoBranch} #deleta o branch novo_branch
-rm -f -r -d -v "nome da pasta" #remove forçadamente diretórios e seus conteúdos rercusivamente, diretórios vazios, explicando o que está sendo feito (--verbose)
+rm -force -r -d -v "nome da pasta" #remove forçadamente diretórios e seus conteúdos rercusivamente, diretórios vazios, explicando o que está sendo feito (--verbose)
 #usando git flow
 git checkout --orphan master #cria novo branch vazio
 git flow init #habilita e configura o gitflow
