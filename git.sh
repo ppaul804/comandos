@@ -16,7 +16,7 @@ git config --global user.email email@exemple.com #define o email do usuário
 git config --local user.email email@exemple.com #define o email do usuário localmente
 git config --global alias.lol "log --oneline --decorate --all --graph" #configura globalmente a alcunha de "lol" para o comando passado
 git config --global --unset alias.{alias} #exclui globalmente a alcunha de seu comando configurado
-git clone -c core.longpaths=true #clona um repositório do GitHub
+git clone -c core.longpaths=true #clona um repositório 
 git init #inicia o repositório git
 git add '*.txt' #adiciona todos os .txt a escala (staging area)
 git reset '*.txt' #retira todos os .txt a escala (staging area)
