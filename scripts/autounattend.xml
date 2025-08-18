@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <unattend xmlns="urn:schemas-microsoft-com:unattend" xmlns:wcm="http://schemas.microsoft.com/WMIConfig/2002/State">
-	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=pt-BR&Locale=pt-BR&Keyboard=00010416&GeoLocation=32&ProcessorArchitecture=amd64&ComputerNameMode=Random&CompactOsMode=Default&TimeZoneMode=Implicit&PartitionMode=Interactive&DiskAssertionMode=Skip&WindowsEditionMode=Generic&WindowsEdition=pro&InstallFromMode=Automatic&PEMode=Default&UserAccountMode=Unattended&AccountName0=Admin&AccountDisplayName0=&AccountPassword0=&AccountGroup0=Administrators&AutoLogonMode=Own&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=Hidden&TaskbarSearch=Hide&TaskbarIconsMode=Default&DisableWidgets=true&StartTilesMode=Default&StartPinsMode=Empty&EffectsMode=Custom&FontSmoothing=true&DesktopIconsMode=Default&StartFoldersMode=Custom&StartFolderSettings=true&VMwareTools=true&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Default&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Default&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCalculator=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveNotepad=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOpenSSHClient=true&RemoveOutlook=true&RemovePaint=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSnippingTool=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveWindowsHello=true&RemoveWindowsMediaPlayer=true&RemoveZuneMusic=true&RemoveWordPad=true&RemoveXboxApps=true&RemoveYourPhone=true&FirstLogonScript0=if%28+%5BSystem.Environment%5D%3A%3AOSVersion.Version.Build+-lt+26100+%29+%7B%0D%0A++++%27This+script+requires+Windows+11+24H2+or+later.%27+%7C+Write-Warning%3B%0D%0A++++return%3B%0D%0A%7D%0D%0A%24timeout+%3D+%5Bdatetime%5D%3A%3ANow.AddMinutes%28+5+%29%3B%0D%0A%24exe+%3D+%22%24env%3ALOCALAPPDATA%5CMicrosoft%5CWindowsApps%5Cwinget.exe%22%3B%0D%0A%0D%0Awhile%28+%24true+%29+%7B%0D%0A++++if%28+%24exe+%7C+Test-Path+%29+%7B%0D%0A++++++++%26+%24exe+install+CPUID.CPU-Z+CPUID.HWMonitor+CrystalDewWorld.CrystalDiskInfo+CrystalDewWorld.CrystalDiskMark+Google.Chrome+Mozilla.Firefox+VideoLAN.VLC+geeksoftwareGmbH.PDF24Creator+Microsoft.PowerToys+7zip.7zip+QBitTorrent.QBitTorrent+%2D%2Daccept-package-agreements+%2D%2Daccept-source-agreements+%2D%2Dsource+winget+%2D%2Dscope+machine%3B%0D%0A++++++++%26+%24exe+upgrade+%2D%2Dall%3B%0D%0A++++++++return%3B%0D%0A++++%7D%0D%0A++++if%28+%5Bdatetime%5D%3A%3ANow+-gt+%24timeout+%29+%7B%0D%0A++++++++%27File+%7B0%7D+does+not+exist.%27+-f+%24exe+%7C+Write-Warning%3B%0D%0A++++++++return%3B%0D%0A++++%7D%0D%0A++++Start-Sleep+-Seconds+1%3B%0D%0A%7D&FirstLogonScriptType0=Ps1&WdacMode=Skip-->
+	<!--https://schneegans.de/windows/unattend-generator/?LanguageMode=Unattended&UILanguage=pt-BR&Locale=pt-BR&Keyboard=00010416&GeoLocation=32&ProcessorArchitecture=amd64&ComputerNameMode=Random&CompactOsMode=Default&TimeZoneMode=Implicit&PartitionMode=Interactive&DiskAssertionMode=Skip&WindowsEditionMode=Generic&WindowsEdition=pro&InstallFromMode=Automatic&PEMode=Default&UserAccountMode=Unattended&AccountName0=Admin&AccountDisplayName0=&AccountPassword0=&AccountGroup0=Administrators&AutoLogonMode=Own&PasswordExpirationMode=Unlimited&LockoutMode=Default&HideFiles=Hidden&ShowFileExtensions=true&LaunchToThisPC=true&TaskbarSearch=Hide&TaskbarIconsMode=Default&DisableWidgets=true&HideTaskViewButton=true&StartTilesMode=Default&StartPinsMode=Empty&HideEdgeFre=true&EffectsMode=Custom&FontSmoothing=true&DesktopIconsMode=Default&StartFoldersMode=Custom&StartFolderSettings=true&WifiMode=Skip&ExpressSettings=DisableAll&LockKeysMode=Skip&StickyKeysMode=Default&ColorMode=Custom&SystemColorTheme=Dark&AppsColorTheme=Dark&AccentColor=%230078d4&WallpaperMode=Script&WallpaperScript=%23+Photo+by+Martin+Damboldt%3A+https%3A%2F%2Fwww.pexels.com%2Fphoto%2Fgray-bridge-and-trees-814499%2F%0D%0A%24url+%3D+%27https%3A%2F%2F4kwallpapers.com%2Fimages%2Fwallpapers%2Fwindows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg%27%3B%0D%0Areturn+%28+Invoke-WebRequest+-Uri+%24url+-UseBasicParsing+-TimeoutSec+30+%29.Content%3B&LockScreenMode=Default&Remove3DViewer=true&RemoveBingSearch=true&RemoveCalculator=true&RemoveCamera=true&RemoveClipchamp=true&RemoveClock=true&RemoveCopilot=true&RemoveCortana=true&RemoveDevHome=true&RemoveFamily=true&RemoveFeedbackHub=true&RemoveGameAssist=true&RemoveGetHelp=true&RemoveHandwriting=true&RemoveInternetExplorer=true&RemoveMailCalendar=true&RemoveMaps=true&RemoveMathInputPanel=true&RemoveMediaFeatures=true&RemoveMixedReality=true&RemoveZuneVideo=true&RemoveNews=true&RemoveNotepad=true&RemoveOffice365=true&RemoveOneDrive=true&RemoveOneNote=true&RemoveOneSync=true&RemoveOpenSSHClient=true&RemoveOutlook=true&RemovePaint=true&RemovePaint3D=true&RemovePeople=true&RemovePhotos=true&RemovePowerAutomate=true&RemoveQuickAssist=true&RemoveRecall=true&RemoveRdpClient=true&RemoveSkype=true&RemoveSnippingTool=true&RemoveSolitaire=true&RemoveSpeech=true&RemoveStepsRecorder=true&RemoveStickyNotes=true&RemoveTeams=true&RemoveGetStarted=true&RemoveToDo=true&RemoveVoiceRecorder=true&RemoveWallet=true&RemoveWeather=true&RemoveFaxAndScan=true&RemoveWindowsHello=true&RemoveWindowsMediaPlayer=true&RemoveZuneMusic=true&RemoveWordPad=true&RemoveXboxApps=true&RemoveYourPhone=true&FirstLogonScript0=if+%28+%5BSystem.Environment%5D%3A%3AOSVersion.Version.Build+-lt+26100+%29+%7B%0D%0A++++%27This+script+requires+Windows+11+24H2+or+later.%27+%7C+Write-Warning%3B%0D%0A++++return%3B%0D%0A%7D%0D%0A%24timeout+%3D+%5Bdatetime%5D%3A%3ANow.AddMinutes%28+5+%29%3B%0D%0A%24exe+%3D+%22%24env%3ALOCALAPPDATA%5CMicrosoft%5CWindowsApps%5Cwinget.exe%22%3B%0D%0A%0D%0Awhile+%28+%24true+%29+%7B%0D%0A++++if+%28+%24exe+%7C+Test-Path+%29+%7B%0D%0A++++++++%26+%24exe+install+Google.GoogleDrive+Google.Chrome+Mozilla.Firefox.pt-BR+VideoLAN.VLC+geeksoftwareGmbH.PDF24Creator+7zip.7zip+JAMSoftware.TreeSize.Free+KeePassXCTeam.KeePassXC+%2D%2Daccept-package-agreements+%2D%2Daccept-source-agreements+%2D%2Dsource+winget+%2D%2Dscope+machine%3B%0D%0A++++++++return%3B%0D%0A++++%7D%0D%0A++++if+%28+%5Bdatetime%5D%3A%3ANow+-gt+%24timeout+%29+%7B%0D%0A++++++++%27File+%7B0%7D+does+not+exist.%27+-f+%24exe+%7C+Write-Warning%3B%0D%0A++++++++return%3B%0D%0A++++%7D%0D%0A++++Start-Sleep+-Seconds+1%3B%0D%0A%7D&FirstLogonScriptType0=Ps1&WdacMode=Skip-->
 	<settings pass="offlineServicing"></settings>
 	<settings pass="windowsPE">
 		<component name="Microsoft-Windows-International-Core-WinPE" processorArchitecture="amd64" publicKeyToken="31bf3856ad364e35" language="neutral" versionScope="nonSxS">
@@ -317,18 +317,6 @@ $logfile = 'C:\Windows\Setup\Scripts\RemoveFeatures.log';
 	}
 } *&gt;&amp;1 &gt;&gt; $logfile;
 		</File>
-		<File path="C:\Windows\Setup\Scripts\VMwareTools.ps1">
-&amp; {
-	foreach( $letter in 'DEFGHIJKLMNOPQRSTUVWXYZ'.ToCharArray() ) {
-		$exe = "${letter}:\setup.exe";
-		if( ( Get-Item -LiteralPath $exe -ErrorAction 'SilentlyContinue' | Select-Object -ExpandProperty 'VersionInfo' | Select-Object -ExpandProperty 'ProductName' ) -eq 'VMware Tools' ) {
-			Start-Process -FilePath $exe -ArgumentList '/s /v /qn REBOOT=R' -Wait;
-			return;
-		}
-	}
-	'VMware Tools image (windows.iso) is not attached to this VM.';
-} *&gt;&amp;1 &gt;&gt; "C:\Windows\Setup\Scripts\VMwareTools.log";
-		</File>
 		<File path="C:\Windows\Setup\Scripts\SetStartPins.ps1">
 $json = '{"pinnedList":[]}';
 if( [System.Environment]::OSVersion.Version.Build -lt 20000 ) {
@@ -391,21 +379,86 @@ $htmlAccentColor = '#0078D4';
 	Set-ItemProperty @params -Value $palette -Type 'Binary' -Force;
 };
 		</File>
+		<File path="C:\Windows\Setup\Scripts\GetWallpaper.ps1">
+# Photo by Martin Damboldt: https://www.pexels.com/photo/gray-bridge-and-trees-814499/
+$url = 'https://4kwallpapers.com/images/wallpapers/windows-11-dark-mode-blue-stock-official-3840x2400-5630.jpg';
+return ( Invoke-WebRequest -Uri $url -UseBasicParsing -TimeoutSec 30 ).Content;
+		</File>
+		<File path="C:\Windows\Setup\Scripts\SetWallpaper.ps1">
+Add-Type -TypeDefinition '
+	using System.Drawing;
+	using System.Runtime.InteropServices;
+	
+	public static class WallpaperSetter {
+		[DllImport("user32.dll")]
+		private static extern bool SetSysColors(
+			int cElements, 
+			int[] lpaElements,
+			int[] lpaRgbValues
+		);
+
+		[DllImport("user32.dll")]
+		private static extern bool SystemParametersInfo(
+			uint uiAction,
+			uint uiParam,
+			string pvParam,
+			uint fWinIni
+		);
+
+		public static void SetDesktopBackground(Color color) {
+			SystemParametersInfo(20, 0, "", 0);
+			SetSysColors(1, new int[] { 1 }, new int[] { ColorTranslator.ToWin32(color) });
+		}
+
+		public static void SetDesktopImage(string file) {
+			SystemParametersInfo(20, 0, file, 0);
+		}
+	}
+' -ReferencedAssemblies 'System.Drawing';
+
+function Set-WallpaperColor {
+	param(
+		[string]
+		$HtmlColor
+	);
+
+	$color = [System.Drawing.ColorTranslator]::FromHtml( $HtmlColor );
+	[WallpaperSetter]::SetDesktopBackground( $color );
+	Set-ItemProperty -Path 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers' -Name 'BackgroundType' -Type 'DWord' -Value 1 -Force;
+	Set-ItemProperty -Path 'Registry::HKCU\Control Panel\Desktop' -Name 'WallPaper' -Type 'String' -Value '' -Force;
+	Set-ItemProperty -Path 'Registry::HKCU\Control Panel\Colors' -Name 'Background' -Type 'String' -Value "$($color.R) $($color.G) $($color.B)" -Force;
+}
+
+function Set-WallpaperImage {
+	param(
+		[string]
+		$LiteralPath
+	);
+
+	if( $LiteralPath | Test-Path ) {
+		[WallpaperSetter]::SetDesktopImage( $LiteralPath );
+		Set-ItemProperty -Path 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Wallpapers' -Name 'BackgroundType' -Type 'DWord' -Value 0 -Force;
+		Set-ItemProperty -Path 'Registry::HKCU\Control Panel\Desktop' -Name 'WallPaper' -Type 'String' -Value $LiteralPath -Force;
+	} else {
+		"Cannot use '$LiteralPath' as a desktop wallpaper because that file does not exist.";
+	}
+}
+Set-WallpaperImage -LiteralPath 'C:\Windows\Setup\Scripts\Wallpaper';
+		</File>
 		<File path="C:\Windows\Setup\Scripts\unattend-01.ps1">
-if( [System.Environment]::OSVersion.Version.Build -lt 26100 ) {
+if ( [System.Environment]::OSVersion.Version.Build -lt 26100 ) {
     'This script requires Windows 11 24H2 or later.' | Write-Warning;
     return;
 }
 $timeout = [datetime]::Now.AddMinutes( 5 );
 $exe = "$env:LOCALAPPDATA\Microsoft\WindowsApps\winget.exe";
 
-while( $true ) {
-    if( $exe | Test-Path ) {
-        &amp; $exe install CPUID.CPU-Z CPUID.HWMonitor CrystalDewWorld.CrystalDiskInfo CrystalDewWorld.CrystalDiskMark Google.Chrome Mozilla.Firefox VideoLAN.VLC geeksoftwareGmbH.PDF24Creator Microsoft.PowerToys 7zip.7zip QBitTorrent.QBitTorrent --accept-package-agreements --accept-source-agreements --source winget --scope machine;
-        &amp; $exe upgrade --all;
+while ( $true ) {
+    if ( $exe | Test-Path ) {
+        &amp; $exe install Google.GoogleDrive Google.Chrome Mozilla.Firefox.pt-BR VideoLAN.VLC geeksoftwareGmbH.PDF24Creator 7zip.7zip JAMSoftware.TreeSize.Free KeePassXCTeam.KeePassXC --accept-package-agreements --accept-source-agreements --source winget --scope machine;
         return;
     }
-    if( [datetime]::Now -gt $timeout ) {
+    if ( [datetime]::Now -gt $timeout ) {
         'File {0} does not exist.' -f $exe | Write-Warning;
         return;
     }
@@ -448,6 +501,9 @@ $scripts = @(
 		reg.exe add "HKLM\SOFTWARE\Policies\Microsoft\Dsh" /v AllowNewsAndInterests /t REG_DWORD /d 0 /f;
 	};
 	{
+		reg.exe add "HKLM\Software\Policies\Microsoft\Edge" /v HideFirstRunExperience /t REG_DWORD /d 1 /f;
+	};
+	{
 		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\SetStartPins.ps1' -Raw | Invoke-Expression;
 	};
 	{
@@ -468,6 +524,14 @@ $scripts = @(
 		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\FontSmoothing" -Name 'DefaultValue' -Value 1 -Type 'DWord' -Force;
 		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\ListBoxSmoothScrolling" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
 		Set-ItemProperty -LiteralPath "Registry::HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VisualEffects\DropShadow" -Name 'DefaultValue' -Value 0 -Type 'DWord' -Force;
+	};
+	{
+		try {
+		  $bytes = Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\GetWallpaper.ps1' -Raw | Invoke-Expression;
+		  [System.IO.File]::WriteAllBytes( 'C:\Windows\Setup\Scripts\Wallpaper', $bytes );
+		} catch {
+		  $_;
+		}
 	};
 );
 
@@ -499,6 +563,9 @@ $scripts = @(
 		Get-AppxPackage -Name 'Microsoft.Windows.Ai.Copilot.Provider' | Remove-AppxPackage;
 	};
 	{
+		Set-ItemProperty -LiteralPath 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced' -Name 'LaunchTo' -Type 'DWord' -Value 1;
+	};
+	{
 		Set-ItemProperty -LiteralPath 'Registry::HKCU\Software\Microsoft\Windows\CurrentVersion\Search' -Name 'SearchboxTaskbarMode' -Type 'DWord' -Value 0;
 	};
 	{
@@ -509,6 +576,9 @@ $scripts = @(
 	};
 	{
 		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\SetColorTheme.ps1' -Raw | Invoke-Expression;
+	};
+	{
+		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\SetWallpaper.ps1' -Raw | Invoke-Expression;
 	};
 	{
 		Get-Process -Name 'explorer' -ErrorAction 'SilentlyContinue' | Where-Object -FilterScript {
@@ -554,6 +624,12 @@ $scripts = @(
 		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\GameDVR" /v AppCaptureEnabled /t REG_DWORD /d 0 /f;
 	};
 	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v "HideFileExt" /t REG_DWORD /d 0 /f;
+	};
+	{
+		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced" /v ShowTaskViewButton /t REG_DWORD /d 0 /f;
+	};
+	{
 		reg.exe add "HKU\DefaultUser\Software\Microsoft\Windows\DWM" /v ColorPrevalence /t REG_DWORD /d 0 /f;
 	};
 	{
@@ -587,9 +663,6 @@ $scripts = @(
 $scripts = @(
 	{
 		Set-ItemProperty -LiteralPath 'Registry::HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon' -Name 'AutoLogonCount' -Type 'DWord' -Force -Value 0;
-	};
-	{
-		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\VMwareTools.ps1' -Raw | Invoke-Expression;
 	};
 	{
 		Get-Content -LiteralPath 'C:\Windows\Setup\Scripts\unattend-01.ps1' -Raw | Invoke-Expression;
