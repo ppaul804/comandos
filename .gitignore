@@ -1,7 +1,6 @@
 # File created using '.gitignore Generator' for Visual Studio Code: https://bit.ly/vscode-gig
-
-# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,powershell,macos,linux,git,backup
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,powershell,macos,linux,git,backup
+# Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,powershell,macos,linux,git,backup,diskimage
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,powershell,macos,linux,git,backup,diskimage
 
 ### Backup ###
 *.bak
@@ -9,6 +8,12 @@
 *.ori
 *.orig
 *.tmp
+
+### DiskImage ###
+*.dmg
+*.iso
+*.toast
+*.vcd
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -67,6 +72,10 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+### macOS Patch ###
+# iCloud generated files
+*.icloud
+
 ### PowerShell ###
 # Exclude packaged modules
 *.zip
@@ -80,18 +89,18 @@ Temporary Items
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-*.code-workspace
+!.vscode/*.code-snippets
 
 # Local History for Visual Studio Code
 .history/
+
+# Built Visual Studio Code Extensions
+*.vsix
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
 .ionide
-
-# Support for Project snippet scope
-!.vscode/*.code-snippets
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -119,7 +128,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,powershell,macos,linux,git,backup
+# End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,powershell,macos,linux,git,backup,diskimage
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
 
