@@ -4,4 +4,4 @@ if (-NOT ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     Write-Host "O script precisa ser executado como administrador. Execute o prompt de comando como administrador e execute o script novamente."
     exit
 }
-winget install CPUID.CPU-Z CPUID.HWMonitor CrystalDewWorld.CrystalDiskInfo CrystalDewWorld.CrystalDiskMark Google.Chrome Mozilla.Firefox VideoLAN.VLC geeksoftwareGmbH.PDF24Creator Microsoft.PowerToys 7zip.7zip QBitTorrent.QBitTorrent --accept-package-agreements --accept-source-agreements --source winget
+winget install IDRIX.VeraCrypt CPUID.CPU-Z CPUID.HWMonitor CrystalDewWorld.CrystalDiskInfo CrystalDewWorld.CrystalDiskMark Google.Chrome Mozilla.Firefox VideoLAN.VLC geeksoftwareGmbH.PDF24Creator Microsoft.PowerToys 7zip.7zip QBitTorrent.QBitTorrent --accept-package-agreements --accept-source-agreements --source winget
